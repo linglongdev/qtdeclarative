@@ -17,21 +17,16 @@ source:
   version: v20/5.11.3
   commit: 4b1682fb9919c628a7190baa658a57e63ef9a246
   patch:
-  - '# Backported patches'
   - gcc_11.patch
   - tst_qmldiskcache_big_endian.patch
   - support_apos_in_styled_text.patch
   - fix_sweep_step.patch
-  - ''
-  - '# Debian patches'
   - disableopengltests.patch
   - fix_test_remove_qlibraryinfo.patch
   - wait_for_window_exposed.patch
   - remove_youtube_iframe.patch
   - riscv64-latomic.patch
   - python3.patch
-  - ''
-  - '# Uos patches'
   - add-sunway-support.patch
 build:
   kind: manual
