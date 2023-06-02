@@ -29,11 +29,4 @@ source:
     - python3.patch
     - add-sunway-support.patch
 build:
-  kind: manual
-  manual:
-    configure: |
-      mkdir build
-      cd build
-      qmake ..
-      make -j1
-      make install -j1
+  kind: qmake
